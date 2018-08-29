@@ -1,0 +1,37 @@
+/*
+* @Author: admin
+* @Date:   2018-08-29 10:05:45
+* @Last Modified by:   admin
+* @Last Modified time: 2018-08-29 13:54:28
+*/
+body{background-color:#fff;}
+#pages {
+	width: 100%;
+	text-align: center;
+}
+#pages a,
+#pages span {
+	position: relative;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	color: #337ab7;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+#pages a:hover {
+	z-index: 2;
+	color: #23527c;
+	background-color: #eee;
+	border-color: #ddd;
+}
+
+#pages span {
+	z-index: 3;
+	color: #fff;
+	cursor: default;
+	background-color: #337ab7;
+	border-color: #337ab7;
+}
